@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p {
+  margin-bottom: 1em;
+}
+
+h1, h2, h4 {
+  color: green;
+  font-family: 'Marker Felt', sans-serif;
+}
+
+h3 {
+  color: gray;
+}
+
+a {
+  color: green;
+  font-family: 'Marker Felt', sans-serif;
+  filter: contrast(50%);
+}
+
+ol {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+body {
+  background-color: #00FF00;
+  font-family: Arial, sans-serif;
+}
+
+.green-element, .brown-element {
+  color: #00CC00;
+  font-family: 'Marker Felt', sans-serif;
+}
+
+.classic {
+  color: blue;
+  font-family: Helvetica, sans-serif;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+#notification {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
