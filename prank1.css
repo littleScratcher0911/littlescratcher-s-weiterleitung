@@ -1,0 +1,31 @@
+h2 {
+color: lightbrown; 
+ font-family: Marker Felt;
+}
+h1 {
+ color: lightbrown;
+}
+h3 {
+ color: lightbrown;
+}
+a {
+ color: lightbrown;
+ contrast(50%);
+ font-family: Marker Felt;
+}
+ol{
+background-color: lightgray;
+padding: 10px 10px 50px 10px;
+}
+h4 {
+ color: lightbrown;
+ font-family: Marker Felt;
+}
+body {
+ background-color: brown;
+ border-radius: 1000px;
+}
+.brown-element {
+ color: lightbrown;
+ font-family: Marker Felt;
+}
